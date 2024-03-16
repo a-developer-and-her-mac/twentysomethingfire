@@ -1,5 +1,7 @@
 ---
+import '/twentysomethingfire/src/styles/global.css';
 
+const pageTitle = "About Me";
 ---
 
 <html lang="en">
@@ -8,13 +10,13 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>About</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
     <a href="/twentysomethingfire/">Home</a>
     <a href="/twentysomethingfire/about/">About</a>
     <a href="/twentysomethingfire/blog/">Blog</a>
-		<h1>About me</h1>
+		<h1>{pageTitle}</h1>
     <p>Hello! I am a twentysomething living in the Pacific Northwest. I started
       this blog because of the lack of FIRE content geared towards people my age. I 
       hope that if this blog isn't helpful, that it is at least interesting.
