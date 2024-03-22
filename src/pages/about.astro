@@ -1,5 +1,6 @@
 ---
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
 const pageTitle = "About Me";
@@ -14,11 +15,12 @@ const pageTitle = "About Me";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-    <Navigation />
+    <Header />
 		<h1>{pageTitle}</h1>
     <p>Hello! I am a twentysomething living in the Pacific Northwest. I started
       this blog because of the lack of FIRE content geared towards people my age. I 
       hope that if this blog isn't helpful, that it is at least interesting.
     </p>
+    <Footer />
 	</body>
 </html>
